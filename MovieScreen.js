@@ -66,9 +66,7 @@ const MovieScreen = () => {
       
       // Try multiple API endpoints
       const apiUrls = [
-        'https://reactnative.dev/movies.json',
-        'https://api.sampleapis.com/movies/drama',
-        'https://api.sampleapis.com/movies/classic'
+        'https://reactnative.dev/movies.json'
       ];
 
       let moviesData = [];
@@ -423,5 +421,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
+
 
 export default MovieScreen;
